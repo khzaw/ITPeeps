@@ -1,0 +1,57 @@
+form {
+	margin-top: 21px;
+}
+
+form fieldset {
+	border: 0;
+}
+
+form legend {
+
+	font-weight: bold;
+	color: lightblue;
+	font-size: 18px;
+}
+	form p {
+		display: table;
+		margin-bottom: 12px;
+		padding: 0 22px;
+	}
+
+		form label {
+			display: table-cell;
+			width: 200px;
+			padding-right: 20px;
+			text-align: left;
+			font-weight: bold;
+			vertical-align: top;
+		}
+	
+		form input[type="text"], input[type="password"] {
+			display: table-cell;
+			width: 300px;
+			height: 40px;
+			border: 1px solid #d7d7d7;
+			
+			font-size: 14px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		form textarea {
+			width: 300px;
+			height: 100px;
+			border: 1px solid #d7d7d7;
+			
+			font-size: 14px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+		
+		form input[type="submit"] {
+			padding: 5px;
+			margin-left: 20px;
+		}

@@ -1,0 +1,333 @@
+body {
+	background: url(../images/bg.jpg) repeat;
+	margin: 50px 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Cambria, "Times New Roman", serif;
+
+}
+
+blockquote {
+	
+	font-style: italic;
+}
+
+a {
+
+	color: #135293;
+}
+
+a:hover {
+	
+	text-decoration: none;
+}
+
+.title1 {
+	color: black;
+	margin: 0;
+	padding: 10px 0;
+	font-weight: normal;
+	background: url(../images/img07.gif) repeat-x left bottom;
+	font-size: 129%;
+}
+
+.title2 {
+	
+	border-bottom: 2px solid lightgrey;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 227%;
+	font-weight: normal;
+	background: url(../images/img09.gif) repeat-x left bottom;
+	color: #135293;
+}
+
+.title3 {
+	
+	margin: 0;
+	padding: 10px 0;
+	font-size: 129%;
+	font-weight: normal;
+
+}
+
+.boxed {
+
+	padding: 5px 30px 20px 30px;
+}
+
+.boxed p, .boxed ul, .boxed ol {
+
+	line-height: 180%;
+}
+
+/* Page */
+
+#page {
+	background: #fbfbfb;
+	width: 980px;
+	margin: 0 auto;
+	
+	-moz-box-shadow: 5px 5px 5px #000;
+	-webkit-box-shadow: 5px 5px 5px #000;
+	-webkit-border-radius: 0px 10px 0px 0px;
+}
+
+#sidebarwrapper {
+	position: relative;
+}
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 220px;
+	/*background: url(../images/img01.gif) repeat right top;*/
+}
+
+/* Logo */
+
+#logo {
+
+	height: 220px;
+	background: #FFFFFF url(../images/img02.gif) repeat-y right top;
+}
+
+#logo h1, #logo h2 {
+
+	margin: 0;
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	color: #9C9C9C;
+}
+
+#logo h1 {
+
+	padding: 100px 0 0 0;
+	font-size: 36px;
+	background: url(../images/logo.gif) no-repeat center center;
+}
+
+#logo h2 {
+
+	font-size: 14px;
+}
+
+#logo a {
+
+	color: #9C9C9C;
+	text-decoration: none;
+
+}
+
+/* Menu */
+
+#menu {
+	padding: 20px;
+	background: #85C329 url(../images/img05.gif) repeat-x;
+}
+
+#menu ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {	padding: 10px 0; }
+
+#menu a {
+
+	text-decoration: none;
+	font-size: 129%;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	background: lightgrey;
+	color: black; 
+	padding: 10px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Login */
+#login {
+	padding: 15px;
+}
+
+#login form {
+
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+#login fieldset {
+
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#login label {
+	color: black;
+	font-size: 16px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+	width: 190px;
+	margin-bottom: 1em;
+	padding: 10px 0;
+	color: #666666;
+}
+
+#login input[type="submit"] {
+	
+	width:  100px;
+	margin-bottom: 1em;
+	color: black;
+	padding: 10px;
+	
+}
+
+#login input[type="submit"] a {
+	color:black;
+	font-size: 14px;
+}
+
+#forgotpassword {
+	
+	background: lightblue;
+	width: 130px;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#forgotpassword a{
+	
+	color: black;
+	text-decoration: none;
+}
+
+#forgotpassword a:hover {
+	
+	color: white;
+}
+
+/* Content */
+
+#content {
+
+	float: right;
+	width: 760px;
+}
+
+/* Footer */
+#footer {
+
+	width: 980px;
+	height: 80px;
+	margin: 0 auto;
+	background: #e1e1e7;
+	
+	-moz-box-shadow: 5px 5px 5px #000;
+	-webkit-box-shadow: 5px 5px 5px #000;
+	
+	-webkit-border-radius: 0 0 10px 10px;
+}
+
+#footer p {
+	
+	margin: 0;
+	font-size: 85%;
+}
+
+#legal {
+
+	float: right;
+	width: 720px;
+	height: 45px;
+	padding: 35px 0 0 20px;
+}
+
+#links {
+
+	float: left;
+	width: 200px;
+	height: 45px;
+	padding: 35px 0 0 20px;
+	background: url(../images/img13.gif) repeat-x;
+}
+
+#links a {
+	
+	color: black;
+}
+
+/* Package */
+.package {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	display: block;
+}
+
+.package img { display: block; margin-left: 30px;}
+
+.packageTitle a {
+	font-size:1.5em;
+	text-decoration:none;
+}
+
+.description {
+	
+	display: block;
+
+}
+
+.package img, .image img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	margin:3px 3px;
+	
+	-webkit-box-shadow: 2px 2px 4px #black;
+	-moz-box-shadow: 2px 2px 4px #black;
+}
+
+
+dt {
+	font-weight: bold;
+	font-size: 15px;
+	padding-right: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+#addPackageButton a {
+	background: lightblue;
+	text-decoration: none;
+	padding: 20px;
+	text-align: right;
+	
+}
+
+/* pagination */
+
+	#pagination a, #pagination strong {
+	 background: #e3e3e3;
+	 padding: 4px 7px;
+	 text-decoration: none;
+	border: 1px solid #cac9c9;
+	color: #292929;
+	font-size: 13px;
+	}
+
+	#pagination strong, #pagination a:hover {
+	 font-weight: normal;
+	 background: #cac9c9;
+	}
+
