@@ -36,10 +36,10 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "emoosx.db.7324135.hostedresource.com";
-$db['default']['username'] = "emoosx";
+$db['default']['hostname'] = "localhost:/tmp/mysql/velia.sock";
+$db['default']['username'] = "rozella";
 $db['default']['password'] = "spammE1992";
-$db['default']['database'] = "emoosx";
+$db['default']['database'] = "OdujoW4K";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
